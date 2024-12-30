@@ -1,0 +1,106 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: white;
+    color: black;
+}
+
+#root {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Inter-Black';
+    src: url('./assets/fonts/Inter_18pt-Black.ttf') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('./assets/fonts/Inter_18pt-Bold.ttf') format('woff2');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    src: url('./assets/fonts/Inter_18pt-ExtraBold.ttf') format('woff2');
+    font-weight: 800; /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-ExtraLight';
+    src: url('./assets/fonts/Inter_18pt-ExtraLight.ttf') format('woff2');
+    font-weight: 200; /* Extra Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Light';
+    src: url('./assets/fonts/Inter_18pt-Light.ttf') format('woff2');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('./assets/fonts/Inter_18pt-Medium.ttf') format('woff2');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('./assets/fonts/Inter_18pt-Regular.ttf') format('woff2');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('./assets/fonts/Inter_18pt-SemiBold.ttf') format('woff2');
+    font-weight: 600; /* SemiBold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Thin';
+    src: url('./assets/fonts/Inter_18pt-Thin.ttf') format('woff2');
+    font-weight: 100; /* Thin */
+    font-style: normal;
+}
+
+
+/* Global scrollbar hide for all elements */
+
+/* Hide scrollbar for all webkit-based browsers */
+*::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+
+/* Hide scrollbar for Firefox */
+* {
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Ensure scrolling still works */
+* {
+    overflow-y: scroll;
+}
